@@ -1,0 +1,637 @@
+[
+  {
+    "name": "Will MacAskill",
+    "industries": [
+      "education",
+      "science",
+      "writing"
+    ],
+    "occupations": [
+      "educator",
+      "scientist",
+      "author"
+    ],
+    "bookSlugs": [
+      "superintelligence",
+      "reasons-and-persons",
+      "the-power-of-persuasion",
+      "mindfulness-mark-williams"
+    ],
+    "imagePath": "./photos/61cb87c1189790428ff79757_will-macaskill.jpeg"
+  },
+  {
+    "name": "Conan O'Brien",
+    "industries": [
+      "comedy",
+      "entertainment",
+      "film",
+      "media"
+    ],
+    "occupations": [
+      "comedian",
+      "actor",
+      "filmmaker",
+      "media personality"
+    ],
+    "bookSlugs": [
+      "becoming",
+      "the-power-broker",
+      "the-years-of-lyndon-johnson"
+    ],
+    "imagePath": "./photos/61cb87c118979081c6f7bcff_conan-obrien.jpeg"
+  },
+  {
+    "name": "Fareed Zakaria",
+    "industries": [
+      "journalism",
+      "writing",
+      "politics"
+    ],
+    "occupations": [
+      "journalist",
+      "author",
+      "politics"
+    ],
+    "bookSlugs": [
+      "how-to-read-a-book",
+      "in-defense-of-a-liberal-education",
+      "the-post-american-world"
+    ],
+    "imagePath": "./photos/61cb87c1189790d1aaf7c0c3_fareed-zakaria.jpeg"
+  },
+  {
+    "name": "Joel Stein",
+    "industries": [
+      "journalism",
+      "writing"
+    ],
+    "occupations": [
+      "journalist",
+      "author"
+    ],
+    "bookSlugs": [
+      "the-body-reset-diet"
+    ],
+    "imagePath": "./photos/61cb87c118979020fdf79530_joel-stein.jpeg"
+  },
+  {
+    "name": "Jon Call",
+    "industries": [
+      "entrepreneurship",
+      "media",
+      "sport"
+    ],
+    "occupations": [
+      "entrepreneur",
+      "media personality",
+      "athlete"
+    ],
+    "bookSlugs": [
+      "thinking-body-dancing-mind"
+    ],
+    "imagePath": "./photos/61cb87c1189790c664f79aa8_jon-call.jpeg"
+  },
+  {
+    "name": "John Green",
+    "industries": [
+      "media",
+      "writing"
+    ],
+    "occupations": [
+      "media personality",
+      "author"
+    ],
+    "bookSlugs": [
+      "bossypants",
+      "little-fires-everywhere",
+      "sula",
+      "whered-you-go-bernadette",
+      "the-enormous-room",
+      "beyond-the-beautiful-forevers",
+      "symphony-for-the-city-of-the-dead",
+      "to-say-nothing-of-the-dog",
+      "love-simon",
+      "fly-on-the-wall",
+      "one-of-us",
+      "regarding-the-pain-of-others",
+      "the-fault-in-our-stars",
+      "turtles-all-the-way-down"
+    ],
+    "imagePath": "./photos/61cb87c11897902f3cf7b971_john-green.jpeg"
+  },
+  {
+    "name": "Stanley McChrystal",
+    "industries": [
+      "entrepreneurship",
+      "writing"
+    ],
+    "occupations": [
+      "entrepreneur",
+      "author"
+    ],
+    "bookSlugs": [
+      "the-road-to-character",
+      "once-an-eagle"
+    ],
+    "imagePath": "./photos/61cb87c1189790545bf7950c_stanley-mcchrystal.jpeg"
+  },
+  {
+    "name": "James Clear",
+    "industries": [
+      "education",
+      "writing"
+    ],
+    "occupations": [
+      "educator",
+      "author"
+    ],
+    "bookSlugs": [
+      "sapiens",
+      "principles",
+      "influence",
+      "meditations",
+      "the-alchemist",
+      "the-war-of-art",
+      "harry-potter",
+      "surely-youre-joking-mr-feynman",
+      "the-lord-of-the-rings",
+      "siddhartha",
+      "guns-germs-and-steel",
+      "when-breath-becomes-air",
+      "fooled-by-randomness",
+      "the-art-of-war",
+      "stumbling-on-happiness",
+      "on-the-shortness-of-life",
+      "mastery-george-leonard",
+      "born-standing-up",
+      "the-count-of-monte-cristo",
+      "10-happier",
+      "the-subtle-art-of-not-giving-a-fck",
+      "to-kill-a-mockingbird",
+      "just-mercy",
+      "anything-you-want",
+      "the-little-prince",
+      "the-most-important-thing-illuminated",
+      "the-richest-man-in-babylon",
+      "a-game-of-thrones",
+      "stillness-is-the-key",
+      "this-is-water",
+      "incognito",
+      "the-goal",
+      "on-the-move",
+      "love-yourself-like-your-life-depends-on-it",
+      "the-10x-rule",
+      "who-moved-my-cheese",
+      "margin-of-safety",
+      "a-brief-history-of-time",
+      "not-fade-away",
+      "into-thin-air",
+      "profit-first",
+      "ignore-everybody",
+      "the-tell-tale-brain",
+      "strangers-to-ourselves",
+      "start-finishing",
+      "candide",
+      "a-technique-for-producing-ideas",
+      "the-girl-with-the-dragon-tattoo",
+      "free-will",
+      "ultralearning",
+      "adapt",
+      "the-compound-effect",
+      "what-got-you-here-wont-get-you-there",
+      "letters-from-a-self-made-merchant-to-his-son",
+      "the-nurture-assumption",
+      "a-short-guide-to-a-happy-life",
+      "the-reason-i-jump",
+      "confessions-of-the-pricing-man",
+      "impro",
+      "just-keep-buying",
+      "are-you-fully-charged",
+      "the-art-of-profitability",
+      "superhuman-by-habit",
+      "manual-for-living",
+      "mastermind-dinners",
+      "slipstream-time-hacking",
+      "marcel-duchamp",
+      "the-power-of-fifty-bits",
+      "the-practicing-mind",
+      "rules-for-a-knight",
+      "confessions-of-an-economic-hitman",
+      "atomic-habits"
+    ],
+    "imagePath": "./photos/62e1d4a76f3ba31c9d937c9b_James%20Clear.webp"
+  },
+  {
+    "name": "Zack Onisko",
+    "industries": [
+      "design",
+      "entrepreneurship",
+      "technology",
+      "venture-capital"
+    ],
+    "occupations": [
+      "designer",
+      "entrepreneur",
+      "technology",
+      "venture capitalist"
+    ],
+    "bookSlugs": [
+      "the-hard-thing-about-hard-things",
+      "remote",
+      "web-standards-solutions",
+      "tomorrow-ill-be-brave",
+      "brand-by-hand"
+    ],
+    "imagePath": "./photos/61cb87c118979071d4f7bce6_zack-onisko.jpeg"
+  },
+  {
+    "name": "Michael Burry",
+    "industries": [
+      "investing"
+    ],
+    "occupations": [
+      "investor"
+    ],
+    "bookSlugs": [
+      "atlas-shrugged",
+      "the-intelligent-investor",
+      "guns-germs-and-steel",
+      "against-the-gods",
+      "security-analysis",
+      "common-stocks-and-uncommon-profits",
+      "when-genius-failed",
+      "you-can-be-a-stock-market-genius"
+    ],
+    "imagePath": "./photos/62b5b83b69718339d4b0d822_Michael%20Burry.jpg"
+  },
+  {
+    "name": "Graham Stephan",
+    "industries": [
+      "media",
+      "entrepreneurship"
+    ],
+    "occupations": [
+      "media personality",
+      "entrepreneur"
+    ],
+    "bookSlugs": [
+      "the-4-hour-workweek",
+      "think-and-grow-rich",
+      "awaken-the-giant-within",
+      "the-millionaire-next-door",
+      "your-money-or-your-life"
+    ],
+    "imagePath": "./photos/62b3d1d347a2fa0940d99957_Graham%20Stephan.jpeg"
+  },
+  {
+    "name": "Ryan Reynolds",
+    "industries": [
+      "comedy",
+      "entertainment",
+      "entrepreneurship",
+      "film"
+    ],
+    "occupations": [
+      "comedian",
+      "actor",
+      "entrepreneur",
+      "filmmaker"
+    ],
+    "bookSlugs": [
+      "a-confederacy-of-dunces",
+      "the-girl-with-the-lower-back-tattoo",
+      "an-astronauts-guide-to-life-on-earth"
+    ],
+    "imagePath": "./photos/61cb87c1189790d188f7bd1c_ryan-reynolds.jpeg"
+  },
+  {
+    "name": "Travis Kalanick",
+    "industries": [
+      "entrepreneurship",
+      "technology",
+      "venture-capital"
+    ],
+    "occupations": [
+      "entrepreneur",
+      "technology",
+      "venture capitalist"
+    ],
+    "bookSlugs": [
+      "atlas-shrugged",
+      "the-fountainhead",
+      "enders-game",
+      "alexander-hamilton"
+    ],
+    "imagePath": "./photos/61cb87c1189790f963f79a28_travis-kalanick.jpeg"
+  },
+  {
+    "name": "George Hatzis",
+    "industries": [
+      "design",
+      "technology"
+    ],
+    "occupations": [
+      "designer",
+      "technology"
+    ],
+    "bookSlugs": [
+      "atomic-habits",
+      "steve-jobs",
+      "the-courage-to-be-disliked",
+      "the-checklist-manifesto",
+      "the-design-of-everyday-things",
+      "radical-candor",
+      "conversations-with-friends",
+      "the-overstory",
+      "on-writing-well",
+      "the-culture-code",
+      "company-of-one",
+      "the-third-wave",
+      "shape-up",
+      "the-uninhabitable-earth",
+      "technically-wrong",
+      "throwing-rocks-at-the-google-bus",
+      "first-we-make-the-beast-beautiful",
+      "invisible-women",
+      "the-best-interface-is-no-interface"
+    ],
+    "imagePath": "./photos/61cb87c11897901be7f7c085_george-hatzis.jpg"
+  },
+  {
+    "name": "Matt Mullenweg",
+    "industries": [
+      "entrepreneurship",
+      "technology",
+      "venture-capital"
+    ],
+    "occupations": [
+      "entrepreneur",
+      "technology",
+      "venture capitalist"
+    ],
+    "bookSlugs": [
+      "sapiens",
+      "principles",
+      "zero-to-one",
+      "the-hard-thing-about-hard-things",
+      "antifragile",
+      "1984",
+      "the-black-swan",
+      "poor-charlies-almanack",
+      "skin-in-the-game",
+      "the-three-body-problem",
+      "when-breath-becomes-air",
+      "brave-new-world",
+      "fooled-by-randomness",
+      "the-effective-executive",
+      "homo-deus",
+      "bird-by-bird",
+      "foundation",
+      "21-lessons-for-the-21st-century",
+      "amusing-ourselves-to-death",
+      "on-writing-well",
+      "the-everything-store",
+      "nonviolent-communication",
+      "remote",
+      "the-great-mental-models",
+      "daring-greatly",
+      "search-inside-yourself",
+      "why-buddhism-is-true",
+      "words-that-work",
+      "the-bed-of-procrustes",
+      "the-art-of-the-start-20",
+      "metaphors-we-live-by",
+      "sum",
+      "the-history-of-the-peloponnesian-war",
+      "conscious",
+      "on-grief-and-grieving",
+      "the-magus",
+      "the-paper-mengerie",
+      "ernest-hemingway-on-writing",
+      "a-field-guide-to-getting-lost",
+      "the-halo-effect",
+      "innovation-and-entrepreneurship",
+      "women-fire-and-dangerous-things",
+      "the-year-without-pants",
+      "the-world-is-sound",
+      "how-proust-can-change-your-life",
+      "becoming-wise",
+      "hard-boiled-wonderland-and-the-end-of-the-world",
+      "rebirth"
+    ],
+    "imagePath": "./photos/62e5ef63d40fd830862e0f2f_matt-mullenweg.webp"
+  },
+  {
+    "name": "Vlad Magdalin",
+    "industries": [
+      "design",
+      "entrepreneurship",
+      "technology"
+    ],
+    "occupations": [
+      "designer",
+      "entrepreneur",
+      "technology"
+    ],
+    "bookSlugs": [
+      "essentialism",
+      "radical-candor",
+      "leaders-eat-last",
+      "white-fragility"
+    ],
+    "imagePath": "./photos/61cb87c118979074aaf7bcb7_vlad-magdalin.jpeg"
+  },
+  {
+    "name": "Gary Vaynerchuk",
+    "industries": [
+      "entrepreneurship",
+      "marketing",
+      "media",
+      "writing"
+    ],
+    "occupations": [
+      "entrepreneur",
+      "marketer",
+      "media personality",
+      "author"
+    ],
+    "bookSlugs": [
+      "steve-jobs",
+      "the-search",
+      "ctrl-alt-delete",
+      "amazing-things-will-happen",
+      "youtility",
+      "the-nine",
+      "think-like-zuck",
+      "fantasy-life",
+      "crush-it",
+      "jab-jab-jab-right-hook"
+    ],
+    "imagePath": "./photos/62e5f1f9f33610fb042620a6_gary-vaynerchuk.webp"
+  },
+  {
+    "name": "Mike Cannon-Brookes",
+    "industries": [
+      "entrepreneurship",
+      "technology",
+      "venture-capital"
+    ],
+    "occupations": [
+      "entrepreneur",
+      "technology",
+      "venture capitalist"
+    ],
+    "bookSlugs": [
+      "only-the-paranoid-survive",
+      "thinking-in-bets",
+      "universal-wisdom"
+    ],
+    "imagePath": "./photos/61cb87c11897905138f7bcb1_mike-cannon-brookes.jpeg"
+  },
+  {
+    "name": "Seth MacFarlane",
+    "industries": [
+      "film",
+      "entertainment",
+      "comedy"
+    ],
+    "occupations": [
+      "filmmaker",
+      "actor",
+      "comedian"
+    ],
+    "bookSlugs": [
+      "ten-arguments-for-deleting-your-social-media-accounts-right-now"
+    ],
+    "imagePath": "./photos/62b33be716dea4502d426661_Seth%20Macfarlane.jpg"
+  },
+  {
+    "name": "Adam Robinson",
+    "industries": [
+      "entrepreneurship",
+      "journalism",
+      "writing",
+      "investing"
+    ],
+    "occupations": [
+      "entrepreneur",
+      "journalist",
+      "author",
+      "investor"
+    ],
+    "bookSlugs": [
+      "influence",
+      "zen-in-the-art-of-archery",
+      "the-origin-of-consciousness-in-the-breakdown-of-the-bicameral-mind",
+      "the-essential-rumi",
+      "the-act-of-creation",
+      "drawing-on-the-right-side-of-the-brain",
+      "judgment-under-uncertainty",
+      "the-crack-in-the-cosmic-egg",
+      "my-60-memorable-games",
+      "the-heartmath-solution"
+    ],
+    "imagePath": "./photos/61cb87c11897906ad4f79521_adam-robinson.jpeg"
+  },
+  {
+    "name": "Katrín Davíðsdóttir",
+    "industries": [
+      "sport"
+    ],
+    "occupations": [
+      "athlete"
+    ],
+    "bookSlugs": [
+      "wooden",
+      "the-champions-mind"
+    ],
+    "imagePath": "./photos/61cb87c11897906d1df794b1_katrin-daviosdottir.jpeg"
+  },
+  {
+    "name": "Joel Connolly",
+    "industries": [
+      "entrepreneurship",
+      "technology",
+      "venture-capital"
+    ],
+    "occupations": [
+      "entrepreneur",
+      "technology",
+      "venture capitalist"
+    ],
+    "bookSlugs": [
+      "principles",
+      "zero-to-one",
+      "slaughterhouse-five",
+      "conspiracy",
+      "the-metamorphosis",
+      "the-stand",
+      "blood-meridian",
+      "power-of-moments",
+      "middlesex",
+      "all-the-pretty-horses",
+      "powerhouse"
+    ],
+    "imagePath": "./photos/61cb87c11897901d23f7bcc5_joel-connolly.jpeg"
+  },
+  {
+    "name": "Rich Roll",
+    "industries": [
+      "media",
+      "sport",
+      "writing"
+    ],
+    "occupations": [
+      "media personality",
+      "athlete",
+      "author"
+    ],
+    "bookSlugs": [
+      "the-power-of-now",
+      "finding-ultra",
+      "peak-performance",
+      "practicing-the-power-of-now",
+      "finding-ultra"
+    ],
+    "imagePath": "./photos/61cb87c1189790837ef7bcf8_rich-roll.jpeg"
+  },
+  {
+    "name": "David Perell",
+    "industries": [
+      "writing",
+      "entrepreneurship",
+      "education"
+    ],
+    "occupations": [
+      "author",
+      "entrepreneur",
+      "educator"
+    ],
+    "bookSlugs": [
+      "zero-to-one",
+      "atlas-shrugged",
+      "atomic-habits",
+      "the-war-of-art",
+      "the-lessons-of-history",
+      "when-breath-becomes-air",
+      "brave-new-world",
+      "the-psychology-of-money",
+      "the-almanack-of-naval-ravikant",
+      "moonwalking-with-einstein",
+      "the-sovereign-individual",
+      "titan",
+      "amusing-ourselves-to-death",
+      "the-elephant-in-the-brain",
+      "autobiography-of-a-yogi",
+      "the-road",
+      "the-circle",
+      "a-curious-mind",
+      "salt-fat-acid-heat",
+      "fallen-leaves",
+      "orality-and-literacy",
+      "deschooling-society",
+      "nobody-wants-to-read-your-sh-t"
+    ],
+    "imagePath": "./photos/61dc6e092dee0842969d683e_david-perell.jpg"
+  }
+]

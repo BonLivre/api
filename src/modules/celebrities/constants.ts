@@ -1,0 +1,1 @@
+export const NUMBER_CELEBRITIES_PER_PAGE = 12

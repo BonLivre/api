@@ -1,0 +1,196 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["extendedWhereUnique"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  ADMIN
+  USER
+}
+
+enum AuthenticationMethod {
+  EMAIL
+  GOOGLE
+  APPLE
+}
+
+model User {
+  id                   String               @id @default(cuid())
+  email                String               @unique
+  username             String               @unique
+  password             String?
+  firstName            String
+  lastName             String
+  photo                String?
+  authenticationMethod AuthenticationMethod @default(EMAIL)
+  role                 UserRole             @default(USER)
+  createdAt            DateTime             @default(now())
+  updatedAt            DateTime             @updatedAt
+
+  reviews       Review[]
+  ShelfItem     ShelfItem[]
+  readingsLists ReadingsList[]
+  quoteVotes    QuoteVote[]
+  quotes        Quote[]
+}
+
+model Book {
+  id                String   @id @default(cuid())
+  title             String
+  yearOfPublication Int
+  language          String
+  color             String
+  verified          Boolean  @default(false)
+  description       String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  authors    Author[]
+  genres     Genre[]
+  reviews    Review[]
+  shelfItems ShelfItem[]
+  quotes     Quote[]
+
+  ReadingsList   ReadingsList? @relation(fields: [readingsListId], references: [id])
+  readingsListId String?
+
+  Celebrity   Celebrity? @relation(fields: [celebrityId], references: [id])
+  celebrityId String?
+
+  @@unique([title, yearOfPublication, language])
+}
+
+model Author {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  books Book[]
+}
+
+model Genre {
+  id        String   @id @default(cuid())
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  books Book[]
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  comment   String?
+  rating    Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  book   Book   @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  bookId String
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId String
+
+  @@unique([bookId, userId])
+}
+
+enum ShelfItemStatus {
+  TO_READ
+  READING
+  READ
+}
+
+model ShelfItem {
+  id        String          @id @default(cuid())
+  status    ShelfItemStatus
+  createdAt DateTime        @default(now())
+  updatedAt DateTime        @updatedAt
+
+  book   Book   @relation(fields: [bookId], references: [id], onDelete: Cascade)
+  bookId String
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId String
+
+  @@unique([bookId, userId])
+}
+
+model ReadingsList {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  tags        String[]
+  isPublic    Boolean  @default(false)
+
+  user   User   @relation(fields: [userId], references: [id])
+  userId String
+
+  books Book[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Industry {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  job       String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  celebrities Celebrity[]
+}
+
+model Celebrity {
+  id          String  @id @default(cuid())
+  name        String  @unique
+  description String?
+  photo       String?
+  website     String?
+  twitter     String?
+  instagram   String?
+  facebook    String?
+
+  industries       Industry[]
+  recommendedBooks Book[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Quote {
+  id   String @id @default(cuid())
+  text String
+
+  bookId String
+  book   Book   @relation(fields: [bookId], references: [id])
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id])
+
+  votes QuoteVote[]
+}
+
+enum VoteType {
+  UP
+  DOWN
+}
+
+model QuoteVote {
+  id String @id @default(cuid())
+
+  type VoteType
+
+  quote   Quote  @relation(fields: [quoteId], references: [id], onDelete: Cascade)
+  quoteId String
+
+  voter   User   @relation(fields: [voterId], references: [id], onDelete: NoAction)
+  voterId String
+
+  @@unique([quoteId, voterId])
+}

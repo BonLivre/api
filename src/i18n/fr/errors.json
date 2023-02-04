@@ -1,0 +1,18 @@
+{
+  "auth": {
+    "emailAlreadyInUse": "Cette adresse électronique est déjà utilisée.",
+    "usernameAlreadyInUse": "Ce nom d'utilisateur est déjà utilisé.",
+    "invalidCredentials": "Mauvais identifiants.",
+    "unauthorized": "Vous n'êtes pas autorisé à effectuer cette action.",
+    "noPassword": "Ce compte n'est pas authentifié avec un mot de passe."
+  },
+  "books": {
+    "coverShouldBeDefined": "La couverture du livre doit être définie.",
+    "bookAlreadyExists": "Le livre existe déjà.",
+    "couldNotCountBooks": "Impossible de compter les livres.",
+    "bookNotFound": "Le livre n'a pas été trouvé.",
+    "failedToUploadCover": "Impossible de télécharger la couverture du livre."
+  },
+  "users": {},
+  "somethingWentWrong": "Une erreur est survenue."
+}

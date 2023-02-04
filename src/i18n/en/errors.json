@@ -1,0 +1,18 @@
+{
+  "auth": {
+    "emailAlreadyInUse": "Email address already in use.",
+    "usernameAlreadyInUse": "Username already in use.",
+    "invalidCredentials": "Invalid credentials.",
+    "unauthorized": "Unauthorized.",
+    "noPassword": "This account isn't authenticated with a password."
+  },
+  "books": {
+    "coverShouldBeDefined": "Cover should be defined.",
+    "bookAlreadyExists": "Book already exists.",
+    "couldNotCountBooks": "Could not count books.",
+    "bookNotFound": "Book not found.",
+    "failedToUploadCover": "Failed to upload cover."
+  },
+  "users": {},
+  "somethingWentWrong": "Something went wrong."
+}
