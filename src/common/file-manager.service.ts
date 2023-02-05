@@ -1,6 +1,7 @@
-import { Injectable, Logger } from "@nestjs/common";
+import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
 import { v2 as cloudinary } from "cloudinary";
+import toStream = require("buffer-to-stream");
 
 @Injectable()
 export class FileManagerService {
@@ -13,14 +14,14 @@ export class FileManagerService {
   }
 
   async uploadFile(bucketName: string, file: Express.Multer.File) {
-    const fileName = `${Date.now()}-${file.originalname}`;
-    await cloudinary.uploader.upload(fileName, {
-      folder: bucketName,
-      use_filename: true,
-      unique_filename: false,
-    });
+    return new Promise((resolve, reject) => {
+      const upload = cloudinary.uploader.upload_stream((error, result) => {
+        if (error) return reject(error);
+        resolve(result.secure_url);
+      });
 
-    return fileName;
+      toStream(file.buffer).pipe(upload);
+    });
   }
 
   async getFileUrl(bucketName: string, fileName: string) {
